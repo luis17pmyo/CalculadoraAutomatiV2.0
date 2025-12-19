@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.087" tests="10" skipped="0" failures="0" errors="0">
+<testcase classname="Calculadora Básica" name="Suma de dos números" time="0.003">
+<system-out><![CDATA[
+Given que tengo una calculadora disponible..................................passed
+Given que ingreso el número 5...............................................passed
+And que ingreso el número 3.................................................passed
+When realizo la operación suma..............................................passed
+Then el resultado debe ser 8................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.1" time="0.008">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "Juan".............................................passed
+Y ingreso el email "juan@test.com"..........................................passed
+Y ingreso la contraseña "12345678"..........................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "exitoso".......................passed
+Y debe mostrar el mensaje "Usuario registrado correctamente"................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.2" time="0.001">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "María"............................................passed
+Y ingreso el email "maria@test.com".........................................passed
+Y ingreso la contraseña "abc123"............................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "exitoso".......................passed
+Y debe mostrar el mensaje "Usuario registrado correctamente"................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.3" time="0">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "".................................................passed
+Y ingreso el email "sinombre@test.com"......................................passed
+Y ingreso la contraseña "12345678"..........................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "error".........................passed
+Y debe mostrar el mensaje "El nombre es obligatorio"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.4" time="0">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "Pedro"............................................passed
+Y ingreso el email "".......................................................passed
+Y ingreso la contraseña "12345678"..........................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "error".........................passed
+Y debe mostrar el mensaje "El email es obligatorio".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.5" time="0">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "Ana"..............................................passed
+Y ingreso el email "ana@test.com"...........................................passed
+Y ingreso la contraseña ""..................................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "error".........................passed
+Y debe mostrar el mensaje "La contraseña es obligatoria"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.6" time="0.002">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "Luis".............................................passed
+Y ingreso el email "email-invalido".........................................passed
+Y ingreso la contraseña "12345678"..........................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "error".........................passed
+Y debe mostrar el mensaje "Formato de email inválido".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Registro de usuario con diferentes datos - #1.7" time="0.001">
+<system-out><![CDATA[
+Dado que estoy en la página de registro.....................................passed
+Cuando ingreso el nombre "Carmen"...........................................passed
+Y ingreso el email "carmen@test.com"........................................passed
+Y ingreso la contraseña "123"...............................................passed
+Y hago clic en registrar....................................................passed
+Entonces el resultado del registro debe ser "error".........................passed
+Y debe mostrar el mensaje "Contraseña muy corta"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Login exitoso" time="0.003">
+<system-out><![CDATA[
+Dado que existe un usuario registrado con email "admin@test.com" y contraseña "admin123".passed
+Cuando ingreso las credenciales "admin@test.com" y "admin123"...............passed
+Y hago clic en iniciar sesión...............................................passed
+Entonces debería estar logueado exitosamente................................passed
+Y debería ver el mensaje de bienvenida "Bienvenido al sistema"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Gestión de Usuarios" name="Login fallido" time="0">
+<system-out><![CDATA[
+Dado que NO existe un usuario con email "inexistente@test.com"..............passed
+Cuando ingreso las credenciales "inexistente@test.com" y "password123"......passed
+Y hago clic en iniciar sesión...............................................passed
+Entonces NO debería estar logueado..........................................passed
+Y debería ver el mensaje de error "Credenciales inválidas"..................passed
+]]></system-out>
+</testcase>
+</testsuite>

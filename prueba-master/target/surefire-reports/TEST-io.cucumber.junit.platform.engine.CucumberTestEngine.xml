@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="0.051" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master\target\test-classes;C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master\target\classes;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Canvia\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Canvia\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Canvia\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Canvia\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="cucumber.junit-platform.naming-strategy" value="long"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\workspace\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Canvia\AppData\Local\Temp\surefire5702462345084764600\surefirebooter-20251219173843080_3.jar C:\Users\Canvia\AppData\Local\Temp\surefire5702462345084764600 2025-12-19T17-38-42_934-jvmRun1 surefire-20251219173843080_1tmp surefire_0-20251219173843080_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master\target\test-classes;C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master\target\classes;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Canvia\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Canvia\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Canvia\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Canvia\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\Canvia\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Canvia\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Canvia"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\workspace\jdk-17.0.17_windows-x64_bin\jdk-17.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Canvia\AppData\Local\Temp\surefire5702462345084764600\surefirebooter-20251219173843080_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+8-LTS-360"/>
+    <property name="user.name" value="Interbank"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Canvia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Canvia\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\Canvia\Desktop\Prueba1\prueba-master\prueba-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\workspace\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Canvia\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Canvia\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\workspace\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\workspace\apache-maven-3.9.12\bin;C:\Users\Canvia\AppData\Local\Microsoft\WindowsApps;C:\Users\Canvia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Canvia\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.17+8-LTS-360"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Calculadora Básica - Suma de dos números" classname="Calculadora Básica" time="0.074">
+    <system-out><![CDATA[
+Scenario: Suma de dos nÃºmeros                &amp#27;[90m# features/calculadora.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque tengo una calculadora disponible&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_tengo_una_calculadora_disponible()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque ingreso el nÃºmero &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m              &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_ingreso_el_numero(double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque ingreso el nÃºmero &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_ingreso_el_numero(double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo la operaciÃ³n suma&amp#27;[0m             &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.realizo_la_operacion_suma()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel resultado debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m               &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.el_resultado_debe_ser(double)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[dic. 19, 2025 5:38:43 P. M. io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+
+This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
+
+If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Launcher you should not use this property. Please consult the JUnit 5 documentation on test selection.
+]]></system-err>
+  </testcase>
+  <testcase name="Calculadora Básica - Suma de dos números" classname="Calculadora Básica" time="0.013">
+    <system-out><![CDATA[
+Scenario: Suma de dos nÃºmeros                &amp#27;[90m# features/calculadora.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque tengo una calculadora disponible&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_tengo_una_calculadora_disponible()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque ingreso el nÃºmero &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m              &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_ingreso_el_numero(double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque ingreso el nÃºmero &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.que_ingreso_el_numero(double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo la operaciÃ³n suma&amp#27;[0m             &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.realizo_la_operacion_suma()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel resultado debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m               &amp#27;[90m# com.pruebatecnica.stepdefinitions.CalculadoraSteps.el_resultado_debe_ser(double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.1" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.014">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:18&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Juan"&amp#27;[0m                               &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"juan@test.com"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitoso"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Usuario registrado correctamente"&amp#27;[0m  &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.1" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.007">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:18&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Juan"&amp#27;[0m                               &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"juan@test.com"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitoso"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Usuario registrado correctamente"&amp#27;[0m  &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.2" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.007">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:19&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"MarÃ­a"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"maria@test.com"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitoso"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Usuario registrado correctamente"&amp#27;[0m  &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.2" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.004">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:19&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"MarÃ­a"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"maria@test.com"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitoso"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Usuario registrado correctamente"&amp#27;[0m  &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.3" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.007">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:20&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                   &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"sinombre@test.com"&amp#27;[0m                        &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El nombre es obligatorio"&amp#27;[0m          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.3" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.003">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:20&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                   &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"sinombre@test.com"&amp#27;[0m                        &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El nombre es obligatorio"&amp#27;[0m          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.4" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.005">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:21&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pedro"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El email es obligatorio"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.4" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.003">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:21&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pedro"&amp#27;[0m                              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El email es obligatorio"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.5" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.006">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:22&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ana"&amp#27;[0m                                &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"ana@test.com"&amp#27;[0m                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                    &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"La contraseÃ±a es obligatoria"&amp#27;[0m      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.5" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.005">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:22&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ana"&amp#27;[0m                                &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"ana@test.com"&amp#27;[0m                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                    &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"La contraseÃ±a es obligatoria"&amp#27;[0m      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.6" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.004">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:23&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Luis"&amp#27;[0m                               &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"email-invalido"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Formato de email invÃ¡lido"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.6" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.005">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:23&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Luis"&amp#27;[0m                               &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"email-invalido"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"Formato de email invÃ¡lido"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.7" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.003">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:24&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Carmen"&amp#27;[0m                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"carmen@test.com"&amp#27;[0m                          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"123"&amp#27;[0m                                 &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"ContraseÃ±a muy corta"&amp#27;[0m              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos - Example #1.7" classname="Gestión de Usuarios - Registro de usuario con diferentes datos - Ejemplos" time="0.004">
+    <system-out><![CDATA[
+Esquema del escenario: Registro de usuario con diferentes datos &amp#27;[90m# features/usuario.feature:24&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pÃ¡gina de registro&amp#27;[0m                       &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_estoy_en_la_pagina_de_registro()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Carmen"&amp#27;[0m                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_nombre(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso el email &amp#27;[0m&amp#27;[32m&amp#27;[1m"carmen@test.com"&amp#27;[0m                          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_el_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mingreso la contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"123"&amp#27;[0m                                 &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_la_contraseÃ±a(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en registrar&amp#27;[0m                                      &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_registrar()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel resultado del registro debe ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"error"&amp#27;[0m           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.el_resultado_del_registro_debe_ser(java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdebe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"ContraseÃ±a muy corta"&amp#27;[0m              &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.debe_mostrar_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Login exitoso" classname="Gestión de Usuarios" time="0.007">
+    <system-out><![CDATA[
+Escenario: Login exitoso                                                                   &amp#27;[90m# features/usuario.feature:26&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque existe un usuario registrado con email &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@test.com"&amp#27;[0m&amp#27;[32m y contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_existe_un_usuario_registrado(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso las credenciales &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@test.com"&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_las_credenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en iniciar sesiÃ³n&amp#27;[0m                                                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_iniciar_sesion()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mdeberÃ­a estar logueado exitosamente&amp#27;[0m                                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_estar_logueado_exitosamente()&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdeberÃ­a ver el mensaje de bienvenida &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bienvenido al sistema"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_ver_el_mensaje_de_bienvenida(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Login exitoso" classname="Gestión de Usuarios" time="0.002">
+    <system-out><![CDATA[
+Escenario: Login exitoso                                                                   &amp#27;[90m# features/usuario.feature:26&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque existe un usuario registrado con email &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@test.com"&amp#27;[0m&amp#27;[32m y contraseÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_existe_un_usuario_registrado(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso las credenciales &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@test.com"&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_las_credenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en iniciar sesiÃ³n&amp#27;[0m                                                            &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_iniciar_sesion()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mdeberÃ­a estar logueado exitosamente&amp#27;[0m                                             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_estar_logueado_exitosamente()&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdeberÃ­a ver el mensaje de bienvenida &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bienvenido al sistema"&amp#27;[0m                           &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_ver_el_mensaje_de_bienvenida(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Login fallido" classname="Gestión de Usuarios" time="0.005">
+    <system-out><![CDATA[
+Escenario: Login fallido                                                 &amp#27;[90m# features/usuario.feature:33&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque NO existe un usuario con email &amp#27;[0m&amp#27;[32m&amp#27;[1m"inexistente@test.com"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_no_existe_un_usuario_con_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso las credenciales &amp#27;[0m&amp#27;[32m&amp#27;[1m"inexistente@test.com"&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m"password123"&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_las_credenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en iniciar sesiÃ³n&amp#27;[0m                                          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_iniciar_sesion()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mNO deberÃ­a estar logueado&amp#27;[0m                                     &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.no_deberia_estar_logueado()&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdeberÃ­a ver el mensaje de error &amp#27;[0m&amp#27;[32m&amp#27;[1m"Credenciales invÃ¡lidas"&amp#27;[0m             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_ver_el_mensaje_de_error(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Gestión de Usuarios - Login fallido" classname="Gestión de Usuarios" time="0.002">
+    <system-out><![CDATA[
+Escenario: Login fallido                                                 &amp#27;[90m# features/usuario.feature:33&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque NO existe un usuario con email &amp#27;[0m&amp#27;[32m&amp#27;[1m"inexistente@test.com"&amp#27;[0m         &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.que_no_existe_un_usuario_con_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso las credenciales &amp#27;[0m&amp#27;[32m&amp#27;[1m"inexistente@test.com"&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m"password123"&amp#27;[0m &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.ingreso_las_credenciales(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhago clic en iniciar sesiÃ³n&amp#27;[0m                                          &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.hago_clic_en_iniciar_sesion()&amp#27;[0m
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mNO deberÃ­a estar logueado&amp#27;[0m                                     &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.no_deberia_estar_logueado()&amp#27;[0m
+  &amp#27;[32mY &amp#27;[0m&amp#27;[32mdeberÃ­a ver el mensaje de error &amp#27;[0m&amp#27;[32m&amp#27;[1m"Credenciales invÃ¡lidas"&amp#27;[0m             &amp#27;[90m# com.pruebatecnica.stepdefinitions.UsuarioSteps.deberia_ver_el_mensaje_de_error(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+com\pruebatecnica\runners\TestRunner.class
+com\pruebatecnica\runners\UsuarioTestRunner.class
+com\pruebatecnica\stepdefinitions\CalculadoraSteps.class
+com\pruebatecnica\stepdefinitions\UsuarioSteps.class
+com\pruebatecnica\runners\CalculadoraTestRunner.class
